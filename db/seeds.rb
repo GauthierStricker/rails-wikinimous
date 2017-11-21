@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+for i in 0..10
+  Article.create(title: Faker::SiliconValley.motto, content: Faker::SiliconValley.quote)
+end
